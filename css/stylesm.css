@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+}
+
+.spacing {
+    margin-top: 68px;
+    margin-left: 20px;
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.toggle-nav {
+    display: none;
+}
+
+.menu ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    /* float: left; */
+}
+
+li a,
+.dropbtn {
+    display: block;
+    padding: 18px 18px;
+    color: #FFF;
+    text-align: center;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #7b4a1b;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.dropdown {
+    width: 100px;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #cccccc;
+    min-width: 100px;
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #e73a1d;
+    text-decoration: none;
+    color: #000;
+}
+
+.dropdown:active .dropdown-content {
+    display: block;
+}
+
+/* 
+li a.active {
+    background-color: #eab647;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .menu {
+        position: relative;
+        display: inline-block;
+    }
+
+    .menu ul {
+        position: absolute;
+        width: 100%;
+        list-style-type: none;
+        margin: 60px 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    ul li,
+    .dropdown {
+        float: none;
+        display: none;
+        width: 100%;
+    }
+
+    .spacing {
+        margin-top: 68px;
+        margin-left: 20px;
+    }
+
+    li.dropdown-content {
+        display: block;
+        width: 100%;
+    }
+
+    .toggle-nav {
+        float: right;
+        margin: 9px 15px;
+        padding: 2px;
+        display: block;
+        border-radius: 10px;
+        text-align: center;
+        width: 42px;
+        background-color: #eab647;
+        color: #FFF;
+    }
+
+    .toggle-nav:hover,
+    .toggle-nav.active {
+        text-decoration: none;
+        color: #555;
+    }
+
+    .header {
+        margin: 0px 0px;
+        position: fixed;
+        width: 100%;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .menu ul li {
+        display: block !important;
+    }
+} */
